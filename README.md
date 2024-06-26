@@ -14,7 +14,6 @@ BookManagement is an ASP.NET Core-based online book management system that allow
 
 - [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 - [MySQL](https://www.mysql.com/downloads/)
-- [Node.js and npm (for frontend development)](https://nodejs.org/)
 
 ## Setup
 
