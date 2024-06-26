@@ -40,6 +40,11 @@ builder.Services.AddSwaggerGen(c=>
 
 var app = builder.Build();
 
+
+
+app.UseHttpsRedirection();
+app.UseRouting();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -55,8 +60,6 @@ if (app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
-app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
